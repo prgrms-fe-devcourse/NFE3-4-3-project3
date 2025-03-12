@@ -1,0 +1,85 @@
+/* 기본 색상 */
+.header-default {
+  background-color: var(--gray-1);
+  color: var(--gray-10);
+  border-bottom: 1px solid var(--gray-10);
+  position: relative;
+}
+.header-default .user-name {
+  color: var(--gray-10);
+}
+.header-default .logo {
+  color: var(--gray-10);
+}
+
+/* 투명 색상 */
+.header-transparent {
+  background-color: transparent;
+  color: var(--gray-1);
+  border-bottom: 1px solid var(--gray-1);
+  backdrop-filter: blur(1px);
+  position: absolute;
+  z-index: 9999;
+}
+.header-transparent .user-name {
+  color: var(--gray-1);
+}
+.header-transparent .logo {
+  color: var(--gray-1);
+}
+
+/* red 색상 */
+.header-red {
+  background-color: var(--primary-red);
+  color: var(--gray-1);
+  border-bottom: 1px solid var(--gray-1);
+  position: relative;
+}
+.header-red .user-name {
+  color: var(--gray-1);
+}
+.header-red .logo {
+  color: var(--gray-1);
+}
+
+/* green 색상 */
+.header-green {
+  background-color: var(--secondary-green);
+  color: var(--gray-1);
+  border-bottom: 1px solid var(--gray-1);
+  position: relative;
+}
+.header-green .user-name {
+  color: var(--gray-1);
+}
+.header-green .logo {
+  color: var(--gray-1);
+}
+
+/* blue 색상 */
+.header-blue {
+  background-color: var(--primary-blue);
+  color: var(--gray-1);
+  border-bottom: 1px solid var(--gray-1);
+  position: relative;
+}
+.header-blue .user-name {
+  color: var(--gray-1);
+}
+.header-blue .logo {
+  color: var(--gray-1);
+}
+
+/* purple 색상 */
+.header-purple {
+  background-color: var(--primary-purple);
+  color: var(--gray-1);
+  border-bottom: 1px solid var(--gray-1);
+  position: relative;
+}
+.header-purple .user-name {
+  color: var(--gray-1);
+}
+.header-purple .logo {
+  color: var(--gray-1);
+}
